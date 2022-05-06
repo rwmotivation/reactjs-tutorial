@@ -25,4 +25,4 @@ jobs:
     - run: npm i
     - run: npm run build --if-present
     - run: npm test
-    - run: rm -rf /var/www/build && sudo chown -R $USER:$USER mv ./build /var/www/
+    - run: rm -rf /var/www/build && mv ./build /var/www/
